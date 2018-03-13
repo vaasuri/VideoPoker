@@ -128,6 +128,8 @@ public class TestResult
         assertEquals("winnings", Result.WINNING_ODDS[Result.WinType.FLUSH.ordinal()], result.getWinnings());
     }
 
+    
+    // Test for if hand is a straight
     @Test
     public void testIsStraight()
     {

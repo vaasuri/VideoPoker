@@ -13,6 +13,7 @@ public class VideoPokerUI
         User user = new User();
         Dealer dealer = new Dealer(user, deck);
         
+        //Print statement to initialize game
         System.out.println("Welcome to video poker!");
         
         while (true) {
